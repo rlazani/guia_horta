@@ -9,6 +9,7 @@ import { MainComponent } from './componentes/main/main.component';
 import { MenuFatoresComponent } from './componentes/fatores/menu-fatores/menu-fatores.component';
 import { MenuCatalogoComponent } from './componentes/catalogo/menu-catalogo/menu-catalogo.component';
 import { FatorComponent } from './componentes/fatores/fator/fator.component';
+import { FichaComponent } from './componentes/fatores/ficha/ficha.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FatorComponent } from './componentes/fatores/fator/fator.component';
     MainComponent,
     MenuFatoresComponent,
     MenuCatalogoComponent,
-    FatorComponent
+    FatorComponent,
+    FichaComponent
   ],
   imports: [
     BrowserModule,
