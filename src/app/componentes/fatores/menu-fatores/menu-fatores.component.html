@@ -7,10 +7,13 @@
 </section>
 <section class="b">
   <div>
-    <app-fator
-      *ngFor="let item_lista of listaFatores"
-      [fator_item]="item_lista"
-    ></app-fator>
+    <a routerLink="/menu-catalogo">
+      <app-fator
+        *ngFor="let item_lista of listaFatores"
+        [fator_item]="item_lista"
+        (click)="abrirFicha(item_lista)"
+      ></app-fator>
+    </a>
   </div>
 </section>
 
