@@ -1,0 +1,37 @@
+<section class="a">
+  <h1 class="titulo">Fatores Ambientais</h1>
+  <h3 class="sub_titulo">
+    Esses são os principais fatores que afetam <br />
+    o desenvolvimento de uma horta orgânica
+  </h3>
+</section>
+<section class="b">
+  <div>
+    <app-fator
+      *ngFor="let item_lista of listaFatores"
+      [fator_item]="item_lista"
+    ></app-fator>
+  </div>
+</section>
+
+<!--  <div>
+    <a routerLink="/iluminacao" class="nav-link">
+      <h3>Iluminação</h3>
+    </a>
+  </div>
+  <div>
+    <a routerLink="/menu-fatores" class="nav-link">
+      <h3>Menu Fatores</h3>
+    </a>
+  </div>
+
+  <div>
+    <a routerLink="/solo" class="nav-link">
+      <h3>Solo</h3>
+    </a>
+  </div>
+  <div>
+    <a routerLink="/pragas" class="nav-link">
+      <h3>Pragas</h3>
+    </a>
+  </div> -->

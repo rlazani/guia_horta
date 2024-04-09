@@ -1,0 +1,39 @@
+.a {
+  display: block;
+  text-align: center;
+  color: var(--clr-white);
+  padding-top: 2rem;
+}
+
+.sub_titulo {
+  color: var(--clr-orange-7);
+}
+
+.b {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid var(--clr-white);
+  border-radius: 10px;
+  text-align: center;
+  margin: 2rem;
+  width: 20%;
+}
+
+div h3 {
+  color: var(--clr-white);
+  font-weight: 500;
+}
+
+div p {
+  font-size: 1.2rem;
+  color: var(--clr-green-9);
+}
