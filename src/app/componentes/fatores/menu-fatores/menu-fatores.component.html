@@ -6,16 +6,13 @@
   </h3>
 </section>
 <section class="b">
-  <div>
-    <a routerLink="/ficha">
-      <app-fator
-        *ngFor="let item_lista of listaFatores"
-        [fator_item]="item_lista"
-        (click)="abrirFicha(item_lista)"
-      ></app-fator>
-    </a>
-  </div>
+  <app-fator
+    *ngFor="let item_lista of listaFatores"
+    [fator_item]="item_lista"
+    (click)="abrirFicha(item_lista)"
+  ></app-fator>
 </section>
+<app-ficha *ngIf="fichaAberta" [objetoFilho]="objetoPai"></app-ficha>
 
 <!--  <div>
     <a routerLink="/iluminacao" class="nav-link">

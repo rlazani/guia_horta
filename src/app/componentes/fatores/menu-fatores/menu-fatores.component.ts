@@ -7,8 +7,12 @@ import { Fator } from "../fator";
   styleUrls: ["./menu-fatores.component.css"],
 })
 export class MenuFatoresComponent implements OnInit {
+  objetoPai?: Fator;
+  fichaAberta = false;
   abrirFicha(item: Fator) {
-    console.log(item);
+    this.objetoPai = item;
+    console.log(this.objetoPai);
+    this.fichaAberta = true;
   }
   listaFatores: Fator[] = [
     {

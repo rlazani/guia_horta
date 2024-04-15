@@ -1,11 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
  */
 
-/*
-===============
-Variables
-===============
-*/
+@import "bulma/css/bulma.css";
 
 :root {
   /* dark shades of primary color*/
