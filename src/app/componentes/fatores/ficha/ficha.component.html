@@ -6,20 +6,15 @@
       </div>
       <div class="content content-padding">
         {{ objetoFilho?.par1 }}
+        {{ objetoFilho?.par2 }}
+        {{ objetoFilho?.par3 }}
       </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span>
-            View on
-            <a href="https://twitter.com/codinghorror/status/506010907021828096"
-              >Twitter</a
-            >
-          </span>
-        </p>
-        <p class="card-footer-item">
-          <span> Share on <a href="#">Facebook</a> </span>
-        </p>
-      </footer>
+      <div class="card-image">
+        <figure class="image is-square">
+          <img src="{{ objetoFilho?.img }}" alt="Placeholder image" />
+        </figure>
+      </div>
+      <footer class="card-footer"></footer>
     </div>
   </div>
 </div>

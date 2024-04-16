@@ -4,4 +4,5 @@ export interface Fator {
   par1: string;
   par2: string;
   par3: string;
+  img: string;
 }
