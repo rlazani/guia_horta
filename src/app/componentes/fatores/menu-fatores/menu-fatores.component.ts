@@ -12,13 +12,17 @@ export class MenuFatoresComponent implements OnInit {
   objetoPai?: Fator;
   fichaAberta = false;
   abrirFicha(item: Fator) {
-    this.objetoPai = item;
     this.fichaAberta = true;
+    //Emitindo o evento para o subscriber escutar
+    this.fatorService.fichaSelecionada.emit(item);
   }
   listaFatores?: Fator[];
   constructor(private fatorService: FatorService) {}
 
   ngOnInit(): void {
     this.listaFatores = this.fatorService.getListaFatores();
+    this.fatorService.fichaSelecionada.subscribe((itensFicha: Fator) => {
+      this.objetoPai = itensFicha;
+    });
   }
 }

@@ -1,6 +1,9 @@
+import { EventEmitter } from "@angular/core";
 import { Fator } from "./fator";
 
 export class FatorService {
+  //Event Emitter para enviar informações para ficha:
+  fichaSelecionada = new EventEmitter<Fator>();
   getListaFatores() {
     // o metodo slice é utilizado para retornar uma cópia do recipes e
     // não modificar o array original.
