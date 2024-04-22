@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { Fator } from "../fator";
 import { FatorService } from "../fator.service";
 
