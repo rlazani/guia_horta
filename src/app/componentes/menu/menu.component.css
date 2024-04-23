@@ -2,7 +2,7 @@
   /*  border: solid red 1px; */
   margin: 0rem auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
