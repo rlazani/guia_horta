@@ -12,4 +12,8 @@
     (click)="abrirFicha(item_lista)"
   ></app-fator>
 </section>
-<app-ficha *ngIf="fichaAberta" [objetoFilho]="objetoPai"></app-ficha>
+<app-ficha
+  *ngIf="fichaAberta"
+  [objetoFilho]="objetoPai"
+  (fecharClicado)="atualizarAberturaFicha()"
+></app-ficha>
