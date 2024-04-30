@@ -2,6 +2,7 @@
  */
 
 @import "bulma/css/bulma.css";
+@import "fontawesome/css/all.css";
 
 :root {
   /* dark shades of primary color*/

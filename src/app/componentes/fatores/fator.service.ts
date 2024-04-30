@@ -4,6 +4,15 @@ import { Fator } from "./fator";
 export class FatorService {
   //Event Emitter para enviar informações para ficha:
   fichaSelecionada = new EventEmitter<Fator>();
+  fichaAberta = false;
+  getFichaAberta() {
+    return this.fichaAberta;
+  }
+  mudarAbertura() {
+    if (this.fichaAberta === false) this.fichaAberta = true;
+    else this.fichaAberta = false;
+    console.log("abertura mudando");
+  }
   getListaFatores() {
     // o metodo slice é utilizado para retornar uma cópia do recipes e
     // não modificar o array original.

@@ -12,6 +12,7 @@ export class MenuFatoresComponent implements OnInit {
   objetoPai?: Fator;
   fichaAberta = false;
   abrirFicha(item: Fator) {
+    //Será necessário criar um service para fechar a ficha
     this.fichaAberta = true;
     //Emitindo o evento para o subscriber escutar
     this.fatorService.fichaSelecionada.emit(item);

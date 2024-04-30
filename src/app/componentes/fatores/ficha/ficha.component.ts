@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from "@angular/core";
 import { Fator } from "../fator";
+import { FatorService } from "../fator.service";
 
 @Component({
   selector: "app-ficha",
@@ -9,7 +10,12 @@ import { Fator } from "../fator";
 export class FichaComponent implements OnInit {
   @Input() objetoFilho: Fator | undefined;
 
-  constructor() {}
+  constructor(private fatorService: FatorService) {}
 
   ngOnInit(): void {}
+
+  fecharFicha() {
+    console.log("fechando ficha");
+    this.fatorService.mudarAbertura();
+  }
 }
