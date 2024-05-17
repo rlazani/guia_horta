@@ -23,7 +23,7 @@ ol {
 }
 
 li {
-  padding: 0 1rem 0rem 1rem;
+  padding: 0 1rem;
 }
 
 svg {
@@ -35,4 +35,26 @@ svg {
 svg:hover {
   opacity: 70%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .card-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto 5rem auto;
+  }
+  .ficha {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content-padding {
+    padding: 0rem 1rem;
+  }
+  li {
+    padding: 0.5rem 0;
+  }
+  .columns {
+    padding: 0rem 1rem;
+    margin-bottom: 5rem;
+  }
 }

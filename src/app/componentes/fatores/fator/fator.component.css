@@ -1,3 +1,19 @@
 div {
   margin: 0 1rem;
 }
+
+.btn {
+  font-size: 1rem;
+  border: 1px solid var(--clr-green-7);
+  border-radius: 4px;
+  padding: 0.5rem 0.7rem;
+  color: var(--clr-green-7);
+}
+.btn:hover {
+  opacity: 70%;
+}
+@media screen and (max-width: 1150px) {
+  div {
+    margin: 1rem;
+  }
+}

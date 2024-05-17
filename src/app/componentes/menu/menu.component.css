@@ -24,7 +24,7 @@
 
 .nav-link {
   color: var(--clr-grey-8);
-  border-left: solid 1px var(--clr-grey-8);
+  /*  border-left: solid 1px var(--clr-grey-8); */
   padding: 0 1rem;
   font-size: 1.2rem;
 }
@@ -35,17 +35,27 @@
   color: var(--clr-green-6);
 }
 
-.border-right {
+/* .border-right {
   border-right: solid 1px var(--clr-grey-8);
-}
+} */
 
 .nav-icons {
   display: flex;
   flex-direction: row;
+  padding: 0.1rem 0.7rem;
 }
 
-.nav-icon {
-  color: rgba(8, 20, 1, 0.665);
-  border-left: solid 1px var(--clr-grey-8);
-  padding: 0.1rem 2rem;
+@media screen and (max-width: 1050px) {
+  .icones-responsivo {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 0rem 0;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 1.3rem 0 1rem 0;
+  }
+  svg {
+    width: 70%;
+  }
 }

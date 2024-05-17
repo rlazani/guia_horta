@@ -1,15 +1,16 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { MenuComponent } from './componentes/menu/menu.component';
-import { FooterComponent } from './componentes/footer/footer.component';
-import { MainComponent } from './componentes/main/main.component';
-import { MenuFatoresComponent } from './componentes/fatores/menu-fatores/menu-fatores.component';
-import { MenuCatalogoComponent } from './componentes/catalogo/menu-catalogo/menu-catalogo.component';
-import { FatorComponent } from './componentes/fatores/fator/fator.component';
-import { FichaComponent } from './componentes/fatores/ficha/ficha.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { MenuComponent } from "./componentes/menu/menu.component";
+import { FooterComponent } from "./componentes/footer/footer.component";
+import { MainComponent } from "./componentes/main/main.component";
+import { MenuFatoresComponent } from "./componentes/fatores/menu-fatores/menu-fatores.component";
+import { MenuCatalogoComponent } from "./componentes/catalogo/menu-catalogo/menu-catalogo.component";
+import { FatorComponent } from "./componentes/fatores/fator/fator.component";
+import { FichaComponent } from "./componentes/fatores/ficha/ficha.component";
+import { ItensComponent } from "./componentes/catalogo/itens/itens.component";
 
 @NgModule({
   declarations: [
@@ -20,13 +21,11 @@ import { FichaComponent } from './componentes/fatores/ficha/ficha.component';
     MenuFatoresComponent,
     MenuCatalogoComponent,
     FatorComponent,
-    FichaComponent
+    FichaComponent,
+    ItensComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
