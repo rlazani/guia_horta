@@ -11,6 +11,7 @@ import { MenuCatalogoComponent } from "./componentes/catalogo/menu-catalogo/menu
 import { FatorComponent } from "./componentes/fatores/fator/fator.component";
 import { FichaComponent } from "./componentes/fatores/ficha/ficha.component";
 import { ItensComponent } from "./componentes/catalogo/itens/itens.component";
+import { FichaCatalogoComponent } from "./componentes/catalogo/ficha-catalogo/ficha-catalogo.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ItensComponent } from "./componentes/catalogo/itens/itens.component";
     FatorComponent,
     FichaComponent,
     ItensComponent,
+    FichaCatalogoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

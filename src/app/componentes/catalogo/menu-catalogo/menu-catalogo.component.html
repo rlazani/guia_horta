@@ -6,8 +6,11 @@
   </h3>
 </section>
 <section class="b">
-  <app-itens>
-    <!--    *ngFor="let itemEl of itens; let i = index" [item]="itemEl" [index]="i"> -->
+  <app-itens
+    *ngFor="let item of itens"
+    [catalogo_item]="item"
+    (click)="abrirFicha(item)"
+  >
   </app-itens>
   <!--  <input
     type="text"
@@ -17,4 +20,10 @@
     placeholder="Digite a espécie"
   /> -->
   <!-- Fazer um loop com as espécies -->
+</section>
+<section class="b">
+  <app-ficha-catalogo
+    *ngIf="fichaAberta"
+    [objetoFilho]="objetoPai"
+  ></app-ficha-catalogo>
 </section>

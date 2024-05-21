@@ -3,7 +3,7 @@ import { Fator } from "../fator";
 import { FatorService } from "../fator.service";
 
 @Component({
-  selector: "app-menu-fatores",
+  selector: "app-m",
   templateUrl: "./menu-fatores.component.html",
   styleUrls: ["./menu-fatores.component.css"],
   providers: [FatorService],

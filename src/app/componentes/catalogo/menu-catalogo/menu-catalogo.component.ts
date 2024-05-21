@@ -8,6 +8,18 @@ import { ItemService } from "../item.service";
   styleUrls: ["./menu-catalogo.component.css"],
 })
 export class MenuCatalogoComponent implements OnInit {
+  objetoPai?: Item;
+
+  abrirFicha(item: Item) {
+    //Será necessário criar um service com valor boleano para fechar a ficha
+    this.fichaAberta = true;
+    //Emitindo o evento para o subscriber escutar
+    this.itemService.fichaSelecionada.emit(item);
+    console.log(item);
+  }
+
+  fichaAberta = true;
+
   itens!: Item[];
 
   constructor(private itemService: ItemService) {}

@@ -1,7 +1,10 @@
-import { Injectable } from "@angular/core";
+import { EventEmitter, Injectable } from "@angular/core";
 import { Item } from "./item.model";
+import { Observable, of } from "rxjs";
 
-@Injectable()
+@Injectable({
+  providedIn: "root",
+})
 export class ItemService {
   itens: Item[] = [
     { name: "alface", description: "verdura", imagePath: "none" },
@@ -9,6 +12,8 @@ export class ItemService {
     { name: "cenoura", description: "verdura", imagePath: "none" },
   ];
   getItens() {
-    return this.itens.slice();
+    return this.itens.slice(); // Simulando um retorno de Observable
   }
+
+  fichaSelecionada = new EventEmitter<Item>();
 }
