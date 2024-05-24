@@ -56,7 +56,7 @@ export class ItemService {
 }
 ```
 
-No Componente itens é necessário inicializar a propriedade itens:
+No Componente itens.ts é apenas necessário inicializar a propriedade itens:
 
 ```ts
 @Input()

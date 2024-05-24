@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
 import { Item } from "../item.model";
 
 @Component({
@@ -12,4 +12,10 @@ export class FichaCatalogoComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  @Output() fecharClicado = new EventEmitter<void>();
+
+  fecharFicha() {
+    this.fecharClicado.emit();
+  }
 }

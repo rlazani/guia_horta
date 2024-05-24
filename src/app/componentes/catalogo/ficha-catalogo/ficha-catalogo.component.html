@@ -2,6 +2,7 @@
   <div class="column">
     <div class="card ficha">
       <svg
+        (click)="fecharFicha()"
         width="800px"
         height="800px"
         viewBox="0 0 15 15"
@@ -12,27 +13,27 @@
       </svg>
 
       <div class="card-content">
-        <h2 class="card-header-title is-centered">{{ objetoFilho }}</h2>
+        <h2 class="card-header-title is-centered">{{ objetoFilho?.nome }}</h2>
       </div>
-
-      <div class="content content-padding">
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+      <div class="content content-padding center">
+        <em>{{ objetoFilho?.nome_cientifico }}</em>
       </div>
-
       <div class="card-image">
         <figure class="image is-square">
-          <img src="" alt="Placeholder image" />
+          <img src="{{ objetoFilho?.imagePath }}" alt="Placeholder image" />
         </figure>
       </div>
+
+      <div class="content content-padding center">
+        <b> Nutricao: </b> {{ objetoFilho?.nutricao }}
+      </div>
+      <div class="content content-padding center">
+        <b>Epoca:</b>{{ objetoFilho?.temperatura }}
+      </div>
+      <div class="content content-padding center">
+        <b>Ciclo:</b>{{ objetoFilho?.ciclo }}
+      </div>
+
       <footer class="card-footer"></footer>
     </div>
   </div>

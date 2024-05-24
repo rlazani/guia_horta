@@ -1,5 +1,8 @@
 export interface Item {
-  name: string;
-  description: string;
+  nome: string;
   imagePath: string;
+  nome_cientifico: string;
+  nutricao: string;
+  temperatura: string;
+  ciclo: string;
 }

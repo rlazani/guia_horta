@@ -8,17 +8,29 @@ import { ItemService } from "../item.service";
   styleUrls: ["./menu-catalogo.component.css"],
 })
 export class MenuCatalogoComponent implements OnInit {
+  // Ficha:
+
+  fichaAberta = false;
+
   objetoPai?: Item;
 
   abrirFicha(item: Item) {
-    //Será necessário criar um service com valor boleano para fechar a ficha
+    //Propriedade com valor boleano para fechar a ficha
     this.fichaAberta = true;
     //Emitindo o evento para o subscriber escutar
     this.itemService.fichaSelecionada.emit(item);
+    this.itensAberto = false;
     console.log(item);
   }
 
-  fichaAberta = true;
+  atualizarAberturaFicha() {
+    this.fichaAberta = false;
+    this.itensAberto = true;
+  }
+
+  //  Lista de itens:
+
+  itensAberto = true;
 
   itens!: Item[];
 
@@ -26,5 +38,8 @@ export class MenuCatalogoComponent implements OnInit {
 
   ngOnInit() {
     this.itens = this.itemService.getItens();
+    this.itemService.fichaSelecionada.subscribe((itensFicha: Item) => {
+      this.objetoPai = itensFicha;
+    });
   }
 }

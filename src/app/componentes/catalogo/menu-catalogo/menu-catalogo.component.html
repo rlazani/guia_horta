@@ -6,12 +6,14 @@
   </h3>
 </section>
 <section class="b">
-  <app-itens
-    *ngFor="let item of itens"
-    [catalogo_item]="item"
-    (click)="abrirFicha(item)"
-  >
-  </app-itens>
+  <ng-container *ngIf="itensAberto">
+    <app-itens
+      *ngFor="let item of itens"
+      [catalogo_item]="item"
+      (click)="abrirFicha(item)"
+    >
+    </app-itens>
+  </ng-container>
   <!--  <input
     type="text"
     class="search"
@@ -25,5 +27,6 @@
   <app-ficha-catalogo
     *ngIf="fichaAberta"
     [objetoFilho]="objetoPai"
+    (fecharClicado)="atualizarAberturaFicha()"
   ></app-ficha-catalogo>
 </section>
