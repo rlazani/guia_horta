@@ -8,7 +8,7 @@
 }
 
 .ficha {
-  width: 60%;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .card-image {
-  width: 70%;
+  max-width: 50rem;
   display: block;
   margin: 0 auto 5rem auto;
 }
