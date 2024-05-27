@@ -13,13 +13,18 @@
 }
 
 .content-padding {
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
+}
+
+.card-header-title {
+  color: var(--clr-green-9);
 }
 
 .card-image {
-  max-width: 50rem;
+  max-width: 60%;
   display: block;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 1rem auto;
+  border-radius: 20px;
 }
 
 svg {
@@ -31,6 +36,10 @@ svg {
 svg:hover {
   opacity: 70%;
   cursor: pointer;
+}
+
+.parametro {
+  color: var(--clr-green-9);
 }
 
 @media screen and (max-width: 1150px) {
@@ -46,9 +55,7 @@ svg:hover {
   .content-padding {
     padding: 0rem 1rem;
   }
-  li {
-    padding: 0.5rem 0;
-  }
+
   .columns {
     padding: 0rem 1rem;
     margin-bottom: 5rem;

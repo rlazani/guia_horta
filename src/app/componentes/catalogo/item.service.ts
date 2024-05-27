@@ -15,17 +15,10 @@ export class ItemService {
       temperatura: "",
       ciclo: "",
     }, */
-    {
-      nome: "alface",
-      imagePath: "../../../../assets/catalogo/alface.jpg",
-      nome_cientifico: "alfacium",
-      nutricao: "calcio",
-      temperatura: "verao",
-      ciclo: "60 dias",
-    },
+
     {
       nome: "Abóbora",
-      imagePath: "../../../../assets/catalogo/abobora.",
+      imagePath: "../../../../assets/catalogo/abobora.jpg",
       nome_cientifico: "Cucurbita moschata Duch",
       nutricao: "vitamina A, cálcio e fósforo",
       temperatura:
@@ -34,7 +27,7 @@ export class ItemService {
     },
     {
       nome: "Abobrinha",
-      imagePath: "../../../../assets/catalogo/abobrinha.",
+      imagePath: "../../../../assets/catalogo/abobrinha.jpg",
       nome_cientifico: "Cucurbita pepo L.",
       nutricao: "Niacina, vitamina B",
       temperatura: "Temperatura amenas (15° - 25°)",
@@ -42,7 +35,7 @@ export class ItemService {
     },
     {
       nome: "Acelga",
-      imagePath: "../../../../assets/catalogo/acelga.",
+      imagePath: "../../../../assets/catalogo/acelga.jpg",
       nome_cientifico: "Beta vulgaris L. var. cicla",
       nutricao: "Fibras, vitaminas A e C, cálcio, ferro",
       temperatura: "Temperaturas amenas (15° a 25°)",
@@ -50,7 +43,7 @@ export class ItemService {
     },
     {
       nome: "Agrião",
-      imagePath: "../../../../assets/catalogo/agriao",
+      imagePath: "../../../../assets/catalogo/agriao.jpg",
       nome_cientifico: "Nasturtium offinale sp",
       nutricao: "Vitamina C, ferro, iodo",
       temperatura: "Temperaturas amenas (15° - 25°)",
@@ -58,7 +51,7 @@ export class ItemService {
     },
     {
       nome: "Alcachofra",
-      imagePath: "../../../../assets/catalogo/alcachofra",
+      imagePath: "../../../../assets/catalogo/alcachofra.png",
       nome_cientifico: "Cynara scolymus L.",
       nutricao: "Vitamina C, ácido fólico, magnésio e potássio",
       temperatura: "Temperaturas frias",
@@ -66,7 +59,7 @@ export class ItemService {
     },
     {
       nome: "Alface",
-      imagePath: "../../../../assets/catalogo/alface.",
+      imagePath: "../../../../assets/catalogo/alface.jpg",
       nome_cientifico: "Lactuca sativa L.",
       nutricao: "Cálcio, vitamina A",
       temperatura: "Temperaturas quentes e amenas",
@@ -74,7 +67,7 @@ export class ItemService {
     },
     {
       nome: "Alho",
-      imagePath: "../../../../assets/catalogo/alho",
+      imagePath: "../../../../assets/catalogo/alho.jpg",
       nome_cientifico: "Allium sativum L.",
       nutricao: "Vitamina B e fosfóro",
       temperatura: "Temperatura frias",
@@ -82,7 +75,7 @@ export class ItemService {
     },
     {
       nome: "Almeirao",
-      imagePath: "../../../../assets/catalogo/almeirao",
+      imagePath: "../../../../assets/catalogo/almeirao.jpg",
       nome_cientifico: "Cichorium intybus L.",
       nutricao: "Vitaminas A, B, C, fósforo e ferro",
       temperatura: "Temperaturas amenas (15° - 25°)",
@@ -90,7 +83,7 @@ export class ItemService {
     },
     {
       nome: "Batata",
-      imagePath: "../../../../assets/catalogo/batata",
+      imagePath: "../../../../assets/catalogo/batata.jpg",
       nome_cientifico: "Solanum tuberosum ssp. tuberosum",
       nutricao: "Vitamina B e fosfóro",
       temperatura: "Temperaturas amenas (15° - 25°)",
@@ -98,7 +91,7 @@ export class ItemService {
     },
     {
       nome: "Batata Doce",
-      imagePath: "../../../../assets/catalogo/batatadoce.",
+      imagePath: "../../../../assets/catalogo/batatadoce.jpg",
       nome_cientifico: "Ipomoea batatas L.",
       nutricao: "Amido e açucares",
       temperatura: "Temperaturas mais elevadas",
@@ -106,7 +99,7 @@ export class ItemService {
     },
     {
       nome: "Beringela",
-      imagePath: "../../../../assets/catalogo/beringela",
+      imagePath: "../../../../assets/catalogo/beringela.jpeg",
       nome_cientifico: "Solanum melongena L.",
       nutricao:
         "vitaminas A, B, C, potássio, fósforo, cálcio, sódio, ferro e enxofre",
@@ -115,7 +108,7 @@ export class ItemService {
     },
     {
       nome: "Bertalha",
-      imagePath: "../../../../assets/catalogo/bertalha",
+      imagePath: "../../../../assets/catalogo/bertalha.png",
       nome_cientifico: "Basella alba",
       nutricao: "Vitaminas A, C, cálcio, ferro e fósforo",
       temperatura: "Clima quente",
@@ -123,7 +116,7 @@ export class ItemService {
     },
     {
       nome: "Beterraba",
-      imagePath: "../../../../assets/catalogo/beterraba.",
+      imagePath: "../../../../assets/catalogo/beterraba.jpg",
       nome_cientifico: "Beta vulgaris L.",
       nutricao: "Ferro e açúcar",
       temperatura: "Clima ameno ou frio",
@@ -131,7 +124,7 @@ export class ItemService {
     },
     {
       nome: "Brócolis",
-      imagePath: "../../../../assets/catalogo/brócolis",
+      imagePath: "../../../../assets/catalogo/brocolis.jpg",
       nome_cientifico: "Brassica oleracea L.",
       nutricao: "Vitamina C, A, cálcio, ferro, fósforo, fibras",
       temperatura: "Clima ameno",
@@ -139,7 +132,7 @@ export class ItemService {
     },
     {
       nome: "Cebola",
-      imagePath: "../../../../assets/catalogo/cebola",
+      imagePath: "../../../../assets/catalogo/cebola.jpg",
       nome_cientifico: "Allium cepa L.",
       nutricao: "Vitaminas B, C. ",
       temperatura: "Clima quente",
@@ -147,7 +140,7 @@ export class ItemService {
     },
     {
       nome: "Cebolinha",
-      imagePath: "../../../../assets/catalogo/cebolinha",
+      imagePath: "../../../../assets/catalogo/cebolinha.jpg",
       nome_cientifico: "Allium schoenoprasum L.",
       nutricao: "Cálcio, vitaminas A e C",
       temperatura: "Clima ameno e frio (abaixo de 25°)",
@@ -155,7 +148,7 @@ export class ItemService {
     },
     {
       nome: "Cenoura",
-      imagePath: "../../../../assets/catalogo/cenoura",
+      imagePath: "../../../../assets/catalogo/cenoura.jpg",
       nome_cientifico: "Daucus carota L.",
       nutricao: "Cálcio, sódio e potássio",
       temperatura: "Clima ameno (20° a 30°)",
@@ -163,7 +156,7 @@ export class ItemService {
     },
     {
       nome: "Chicória",
-      imagePath: "../../../../assets/catalogo/chicória",
+      imagePath: "../../../../assets/catalogo/chicoria.jpg",
       nome_cientifico: "Cichorium endivia L.",
       nutricao: "Fibras, vitaminas, potássio",
       temperatura: "Clima ameno (15° - 25°)",
@@ -171,7 +164,7 @@ export class ItemService {
     },
     {
       nome: "Chuchu",
-      imagePath: "../../../../assets/catalogo/chuchu",
+      imagePath: "../../../../assets/catalogo/chuchu.jpg",
       nome_cientifico: "Sechium edule Sw.",
       nutricao: "Fibras, vitaminas A, B, C e potássio",
       temperatura: "Clima ameno (15° - 25°)",
@@ -179,7 +172,7 @@ export class ItemService {
     },
     {
       nome: "Coentro",
-      imagePath: "../../../../assets/catalogo/coentro",
+      imagePath: "../../../../assets/catalogo/coentro.jpg",
       nome_cientifico: "Coriandrum sativum L.",
       nutricao: "Vitaminas A, B, C",
       temperatura: "Clima quente",
@@ -187,7 +180,7 @@ export class ItemService {
     },
     {
       nome: "Couve",
-      imagePath: "../../../../assets/catalogo/couve",
+      imagePath: "../../../../assets/catalogo/couve.jpg",
       nome_cientifico: "Brassica oleracea L.",
       nutricao: "Cálcio, ferro, vitaminas A, B, C, K",
       temperatura: "Clima ameno",
@@ -195,7 +188,7 @@ export class ItemService {
     },
     {
       nome: "Couve-flor",
-      imagePath: "../../../../assets/catalogo/couveflor",
+      imagePath: "../../../../assets/catalogo/couveflor.jpg",
       nome_cientifico: "Brassica oleracea var.",
       nutricao: "Vitamina C, cálcio, fosfóro",
       temperatura: "Clima ameno e quente",
@@ -203,7 +196,7 @@ export class ItemService {
     },
     {
       nome: "Ervilha",
-      imagePath: "../../../../assets/catalogo/ervilha",
+      imagePath: "../../../../assets/catalogo/ervilha.jpg",
       nome_cientifico: "Pisum sativum L.",
       nutricao: "vitaminas A, B, C, fibras",
       temperatura: "Clima ameno e frio (abaixo de 25°)",
@@ -211,7 +204,7 @@ export class ItemService {
     },
     {
       nome: "Espinafre",
-      imagePath: "../../../../assets/catalogo/espinafre",
+      imagePath: "../../../../assets/catalogo/espinafre.jpg",
       nome_cientifico: "Spinacea oleracea L.",
       nutricao: "Vitamina A, ferro",
       temperatura: "Clima ameno (15° - 25°)",
@@ -219,7 +212,7 @@ export class ItemService {
     },
     {
       nome: "Feijão Vagem",
-      imagePath: "../../../../assets/catalogo/feijãovagem",
+      imagePath: "../../../../assets/catalogo/feijaovagem.jpg",
       nome_cientifico: "Phaseolus vulgaris L.",
       nutricao: "Proteína",
       temperatura: "Clima ameno e quente",
@@ -227,7 +220,7 @@ export class ItemService {
     },
     {
       nome: "Gengibre",
-      imagePath: "../../../../assets/catalogo/gengibre",
+      imagePath: "../../../../assets/catalogo/gengibre.jpg",
       nome_cientifico: "Zingiber offininale Roscoe",
       nutricao: "Vitaminas A, B, C, potássio, sódio",
       temperatura: "Clima ameno e quente",
@@ -235,7 +228,7 @@ export class ItemService {
     },
     {
       nome: "Inhame",
-      imagePath: "../../../../assets/catalogo/inhame",
+      imagePath: "../../../../assets/catalogo/inhame.jpg",
       nome_cientifico: "Dioscorea alata L.",
       nutricao: "Vitamina B, carboidrato",
       temperatura: "Clima quente",
@@ -243,7 +236,7 @@ export class ItemService {
     },
     {
       nome: "Jiló",
-      imagePath: "../../../../assets/catalogo/jiló",
+      imagePath: "../../../../assets/catalogo/jilo.jpg",
       nome_cientifico: "Solanum gilo Raddi",
       nutricao: "Vitaminas A, B, cálcio, fósforo, ferro",
       temperatura: "Clima ameno e quente",
@@ -251,7 +244,7 @@ export class ItemService {
     },
     {
       nome: "Mandioquinha Salsa",
-      imagePath: "../../../../assets/catalogo/mandioquinhasalsa",
+      imagePath: "../../../../assets/catalogo/mandioquinhasalsa.jpg",
       nome_cientifico: "Arracacia xanthorrhiza Banc.",
       nutricao: "Vitamina B e carboidratos",
       temperatura: "Clima ameno",
@@ -259,7 +252,7 @@ export class ItemService {
     },
     {
       nome: "Maxixe",
-      imagePath: "../../../../assets/catalogo/maxixe",
+      imagePath: "../../../../assets/catalogo/maxixe.jpg",
       nome_cientifico: "Cucumis angurria L.",
       nutricao: "Zinco",
       temperatura: "Clima quente",
@@ -267,7 +260,7 @@ export class ItemService {
     },
     {
       nome: "Melancia",
-      imagePath: "../../../../assets/catalogo/melancia",
+      imagePath: "../../../../assets/catalogo/melancia.jpg",
       nome_cientifico: "Citrullus lanatus",
       nutricao: "Vitaminas A e C",
       temperatura: "Clima quente",
@@ -275,7 +268,7 @@ export class ItemService {
     },
     {
       nome: "Melão",
-      imagePath: "../../../../assets/catalogo/melao",
+      imagePath: "../../../../assets/catalogo/melao.jpg",
       nome_cientifico: "Cucumis melo L.",
       nutricao: "Vitaminas A e C",
       temperatura: "Clima quente",
@@ -283,7 +276,7 @@ export class ItemService {
     },
     {
       nome: "Milho",
-      imagePath: "../../../../assets/catalogo/milho",
+      imagePath: "../../../../assets/catalogo/milho.jpg",
       nome_cientifico: "Zea mays L.",
       nutricao: "Açúcar, amido",
       temperatura: "Clima quente e ameno",
@@ -291,7 +284,7 @@ export class ItemService {
     },
     {
       nome: "Moranga",
-      imagePath: "../../../../assets/catalogo/moranga",
+      imagePath: "../../../../assets/catalogo/moranga.jpg",
       nome_cientifico: "Cucurbita maxima Duch",
       nutricao: "Vitamina A e carboidratos",
       temperatura: "Clima ameno e quente",
@@ -299,7 +292,7 @@ export class ItemService {
     },
     {
       nome: "Morango",
-      imagePath: "../../../../assets/catalogo/morango",
+      imagePath: "../../../../assets/catalogo/morango.jpg",
       nome_cientifico: "Fragaria X ananassa Duch.",
       nutricao: "Vitaminas A, C",
       temperatura: "Clima frio e ameno",
@@ -307,7 +300,7 @@ export class ItemService {
     },
     {
       nome: "Mostarda",
-      imagePath: "../../../../assets/catalogo/mostarda",
+      imagePath: "../../../../assets/catalogo/mostarda.jpg",
       nome_cientifico: "Brassica juncea",
       nutricao: "Vitaminas A, C, cálcio, ferro, sódio, potássio, magnésio",
       temperatura: "Clima ameno (15° - 25°)",
@@ -315,7 +308,7 @@ export class ItemService {
     },
     {
       nome: "Nabo",
-      imagePath: "../../../../assets/catalogo/nabo",
+      imagePath: "../../../../assets/catalogo/nabo.jpg",
       nome_cientifico: "Brassica rapa var. rapa (L.) Thell.",
       nutricao: "Cálcio",
       temperatura: "Clima ameno (15° - 25°)",
@@ -323,7 +316,7 @@ export class ItemService {
     },
     {
       nome: "Pepino",
-      imagePath: "../../../../assets/catalogo/pepino",
+      imagePath: "../../../../assets/catalogo/pepino.jpg",
       nome_cientifico: "Cucumis sativus L.",
       nutricao: "Vitaminas A, B, C, potássio",
       temperatura: "Clima ameno e quente",
@@ -331,7 +324,7 @@ export class ItemService {
     },
     {
       nome: "Pimenta",
-      imagePath: "../../../../assets/catalogo/pimenta",
+      imagePath: "../../../../assets/catalogo/pimenta.jpg",
       nome_cientifico: "Capsicum frutescens L.",
       nutricao: "Vitaminas A, B, C",
       temperatura: "Clima quente",
@@ -339,7 +332,7 @@ export class ItemService {
     },
     {
       nome: "Pimentão",
-      imagePath: "../../../../assets/catalogo/pimentao",
+      imagePath: "../../../../assets/catalogo/pimentao.jpg",
       nome_cientifico: "Capsicum annuum L.",
       nutricao: "Vitaminas A, C",
       temperatura: "Clima quente e ameno",
@@ -347,7 +340,7 @@ export class ItemService {
     },
     {
       nome: "Quiabo",
-      imagePath: "../../../../assets/catalogo/quiabo",
+      imagePath: "../../../../assets/catalogo/quiabo.jpg",
       nome_cientifico: "Abelmoschus esculentus (L.) Moench",
       nutricao: "Vitaminas A, B, C",
       temperatura: "Clima quente",
@@ -355,7 +348,7 @@ export class ItemService {
     },
     {
       nome: "Rabanete",
-      imagePath: "../../../../assets/catalogo/rabanete",
+      imagePath: "../../../../assets/catalogo/rabanete.jpg",
       nome_cientifico: "Raphanus sativus L.",
       nutricao: "Vitamina C, fibras",
       temperatura: "Clima ameno e frio",
@@ -363,7 +356,7 @@ export class ItemService {
     },
     {
       nome: "Repolho",
-      imagePath: "../../../../assets/catalogo/repolho",
+      imagePath: "../../../../assets/catalogo/repolho.jpg",
       nome_cientifico: "Brassica oleracea L.",
       nutricao: "Fibras, vitaminas B, E, K",
       temperatura: "Clima ameno",
@@ -371,7 +364,7 @@ export class ItemService {
     },
     {
       nome: "Rúcula",
-      imagePath: "../../../../assets/catalogo/rucula",
+      imagePath: "../../../../assets/catalogo/rucula.jpg",
       nome_cientifico: "Eruca sativa L.",
       nutricao: "Ferro, cálcio, fósforo, vitaminas A, C",
       temperatura: "40 - 60 dias",
@@ -379,7 +372,7 @@ export class ItemService {
     },
     {
       nome: "Salsa",
-      imagePath: "../../../../assets/catalogo/salsa",
+      imagePath: "../../../../assets/catalogo/salsa.png",
       nome_cientifico: "Petroselinum crispum (Mill.) Nym.",
       nutricao: "Vitamina A",
       temperatura: "Clima ameno (15° - 25)",
@@ -387,7 +380,7 @@ export class ItemService {
     },
     {
       nome: "Taioba",
-      imagePath: "../../../../assets/catalogo/taioba",
+      imagePath: "../../../../assets/catalogo/taioba.jpg",
       nome_cientifico: "Xanthosoma sagittifolium (L.) Schott",
       nutricao: "Vitamina A, cálcio, fosfóro",
       temperatura: "Clima quente",
@@ -395,7 +388,7 @@ export class ItemService {
     },
     {
       nome: "Taro",
-      imagePath: "../../../../assets/catalogo/taro",
+      imagePath: "../../../../assets/catalogo/taro.jpg",
       nome_cientifico: "Colocasia esculenta (L.) Schott",
       nutricao: "Carboidratos, ferro, fósforo",
       temperatura: "Clima quente",
@@ -403,7 +396,7 @@ export class ItemService {
     },
     {
       nome: "Tomate",
-      imagePath: "../../../../assets/catalogo/tomate",
+      imagePath: "../../../../assets/catalogo/tomate.jpg",
       nome_cientifico: "Lycopersicon esculentum Mill.",
       nutricao: "Vitaminas A, C e potássio",
       temperatura: "Clima ameno (15° - 25°)",

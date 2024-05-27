@@ -19,19 +19,19 @@
         <em>{{ objetoFilho?.nome_cientifico }}</em>
       </div>
       <div class="card-image">
-        <figure class="image is-square">
+        <figure class="image">
           <img src="{{ objetoFilho?.imagePath }}" alt="Placeholder image" />
         </figure>
       </div>
 
       <div class="content content-padding center">
-        <b> Nutricao: </b> {{ objetoFilho?.nutricao }}
+        <b class="parametro"> Nutricao: </b> {{ objetoFilho?.nutricao }}
       </div>
       <div class="content content-padding center">
-        <b>Epoca:</b>{{ objetoFilho?.temperatura }}
+        <b class="parametro">Epoca: </b>{{ objetoFilho?.temperatura }}
       </div>
       <div class="content content-padding center">
-        <b>Ciclo:</b>{{ objetoFilho?.ciclo }}
+        <b class="parametro">Ciclo: </b>{{ objetoFilho?.ciclo }}
       </div>
 
       <footer class="card-footer"></footer>
